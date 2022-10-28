@@ -11,26 +11,29 @@
 ## Api Usage
   To successfully consume the api here is some basic example of the Api usage you can use Api testing softwares like postman to the endpoints.
 
-&nbsp; # Api Enpoints
+ # Api Enpoints
    Assuming the project is hosted on locahost:800 in a local development server
-   <br>
+    
 
-     <h4> &nbsp;&nbsp;  1.  http:localhost:800/api/check-mail  &nbsp;&nbsp; Method = POST  </h4>
-     <br>
+        &nbsp;&nbsp;  1.  http:localhost:800/api/check-mail  &nbsp;&nbsp; Method = POST  
+      
       This endpoint verifies if a user can proceed to the next stae of the registration.
      
-     <br>
-       If a request is sent, the server will first authenticate the request to check and see if the email or phone number is already taken. If so then the server will automatically generate a login link and sent to parent email address and return a json response in this format.
-      <br />
+      
+       If a request is sent, the server will first authenticate the request to check and
+       see if the email or phone number is already taken. 
+       If so then the server will automatically generate a login link and sent to parent email
+       address and return a json response in this format.
+       
 
-      <pre>
+      
           {
              success : false,
              message : 'The email has already been taken. A login link is send to your email address'                 
           }
-     </pre>
+    
      
-     <br><br>
+    
 
 
  <h4> &nbsp;&nbsp;  2.  http:localhost:800/api/register  &nbsp;&nbsp; Method = POST  </h4>
