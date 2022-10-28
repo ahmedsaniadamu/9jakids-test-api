@@ -9,7 +9,8 @@
 
  <br>
 # Api Usage
-  To successfully consume the api here is some basic example of the Api usage you can use Api testing softwares like postman to the endpoints.
+  To successfully consume the api here is some basic example of the Api usage you can use Api testing
+  softwares like postman to the endpoints.
 
  # Api Enpoints
    Assuming the project is hosted on locahost:800 in a local development server
@@ -38,7 +39,8 @@
 
  <h4>    2.  http:localhost:800/api/register                Method = POST  </h4>
 
-     This endpoint registers parent with specified number of children at once so it espect an nested object as the body of the request e.g
+     This endpoint registers parent with specified number of children at once so it espect an 
+     nested object as the body of the request e.g
       
           {
              name : 'uche',
@@ -81,18 +83,18 @@
  
 
 <h4> &nbsp;&nbsp;  3.  http:localhost:800/api/login  &nbsp;&nbsp; Method = POST  </h4>
- <p>
+ 
     This endpoint i used to authenticate parents and returns a json response.
     it espect credentials to be sent by the client and authorization header with the beare token e.g
-    <pre>
+    
           {              
              email : 'uche@gmail.com', 
              password : '**********'  ,                                    
           }
-    </pre>
+    
      After the request is authenticated a json response will be sent back to client along with all 
      childrens data e.g
-    <pre>
+    
           {
              id : 1
              name : 'uche',
@@ -123,7 +125,7 @@
                     //.....//
              ]             
           }
-     </pre>
+      
 
  <h4> &nbsp;&nbsp;  4.  http:localhost:800/api/login  &nbsp;&nbsp; Method = POST  </h4>
  <p>
