@@ -1,7 +1,7 @@
 # 9jakids Test Api
 
 ## Introduction
-  9jakids test APi is Rest Api Build with Laravel ( PHP framework for web artisans ) 
+  9jakids test APi is a Rest Api Build with Laravel ( PHP framework for web artisans ) 
 <br>
 # Running The Project 
 &nbsp; To sucessfully run the project install a composer software or click here to download www.getcomposer.org
@@ -155,8 +155,8 @@ This route allows only authenticated users to make request the routes are protec
 the only route that was protectected by this api is the logout endpoint which expect the bearer
 token that was sent by during login.
 
-<h3> EndPoint </h3>
-<h4> &nbsp;&nbsp;  4.  http:localhost:800/api/logout  &nbsp;&nbsp; Method = POST  </h4>
+<h3> Logout </h3>
+<h4> &nbsp;&nbsp;  5.  http:localhost:800/api/logout  &nbsp;&nbsp; Method = POST  </h4>
 <br>This route expect only a bearer token from the authorization header. It checks the token and delete the personal access token. A Json response is returned in the folloing format
     <pre> 
         {
