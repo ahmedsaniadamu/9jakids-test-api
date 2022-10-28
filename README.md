@@ -34,7 +34,7 @@
 
 
  <h4> &nbsp;&nbsp;  2.  http:localhost:800/api/register  &nbsp;&nbsp; Method = POST  </h4>
- <p>
+
      This endpoint registers parent with specified number of children at once so it espect an nested object as the body of the request e.g
      <pre>
           {
