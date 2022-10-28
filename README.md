@@ -15,7 +15,7 @@
    Assuming the project is hosted on locahost:800 in a local development server
     
 
-        &nbsp;&nbsp;  1.  http:localhost:800/api/check-mail  &nbsp;&nbsp; Method = POST  
+         1.  http:localhost:800/api/check-mail    Method = POST  
       
       This endpoint verifies if a user can proceed to the next stae of the registration.
      
@@ -36,10 +36,10 @@
     
 
 
- <h4> &nbsp;&nbsp;  2.  http:localhost:800/api/register  &nbsp;&nbsp; Method = POST  </h4>
+ <h4>    2.  http:localhost:800/api/register                Method = POST  </h4>
 
      This endpoint registers parent with specified number of children at once so it espect an nested object as the body of the request e.g
-     <pre>
+      
           {
              name : 'uche',
              email : 'uche@gmail.com',
@@ -63,10 +63,10 @@
                     //.....//
              ]             
           }
-     </pre>
+     
            
      if the email is not taken and the request is authenticated the server will renerate a unique 6 digit code for each child then the Api will return a json format like this:
-     <pre> 
+     
         {
              success : true,
              status : 201,
@@ -75,9 +75,9 @@
              token : 
              message : 'registration is successful' 
         }
-     </pre>
- </p>
-<br>
+       
+ 
+ 
 
 <h4> &nbsp;&nbsp;  3.  http:localhost:800/api/login  &nbsp;&nbsp; Method = POST  </h4>
  <p>
