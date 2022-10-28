@@ -8,7 +8,7 @@
  <br> The next step is to open your terminal and run composer install or composer update to install all the necessary dependency.
 
  <br>
-## Api Usage
+# Api Usage
   To successfully consume the api here is some basic example of the Api usage you can use Api testing softwares like postman to the endpoints.
 
  # Api Enpoints
@@ -65,7 +65,8 @@
           }
      
            
-     if the email is not taken and the request is authenticated the server will renerate a unique 6 digit code for each child then the Api will return a json format like this:
+     if the email is not taken and the request is authenticated the server will renerate a unique 6 digit 
+     code for each child then the Api will return a json format like this:
      
         {
              success : true,
